@@ -11,25 +11,13 @@ public class Song {
         this.songDuration = songDuration;
     }
 
-    public String getSongTile() {
+    public String getSongTile() { return songTile; }
 
-        return songTile;
-    }
-
-    public String getSongDuration() {
-
-        return songDuration;
-    }
+    public String getSongDuration() { return songDuration; }
 
     // Only used for editing
-    public void setSongTile(String songTile) {
-
-        this.songTile = songTile;
-    }
+    public void setSongTile(String songTile) { this.songTile = songTile; }
 
     // Only used for editing.
-    public void setSongDuration(String songDuration) {
-
-        this.songDuration = songDuration;
-    }
+    public void setSongDuration(String songDuration) { this.songDuration = songDuration; }
 }
