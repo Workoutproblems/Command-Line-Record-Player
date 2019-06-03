@@ -40,7 +40,6 @@ public class Main {
         music.get(2).addAlbumSong("Broke stereo", "03:31");
 
 
-
         playListMessage();
 
         appMessage();
@@ -151,7 +150,6 @@ public class Main {
                             // Start of list, now going forward.
                             goingForward = true;
                         }
-
                     case 5:
                         listIterator.remove();
                         break;
